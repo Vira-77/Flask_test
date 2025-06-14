@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Jane Doe</h1>
+        <p>Full-Stack Developer | Python | JavaScript</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I build web apps using Flask, React, and PostgreSQL. I love clean code and responsive design.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A task manager app built with Flask + SQLite.</p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>A weather dashboard using OpenWeather API and JavaScript.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact: janedoe@example.com</p>
+    </footer>
+</body>
+</html>
